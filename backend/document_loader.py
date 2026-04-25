@@ -69,7 +69,7 @@ class DocumentLoader:
             try:
                 text = self.extract_with_pypdf(pdf_bytes)
 
-                if text and len(text.strip()) > 100:
+                if text and len(text.strip()) > 20:
                     logger.info(f"[PyPDF SUCCESS] {filename}")
                     return text
                 else:

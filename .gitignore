@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore envrionment variables
+.env
+.env.*
+
+# Python cache and logs
+backend/__pycache__/
+
+#Ignore data and documents
+backend/data/
+Documents/

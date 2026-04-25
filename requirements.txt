@@ -1,0 +1,33 @@
+# LLM and RAG
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-text-splitters>=0.0.1
+langchain-ollama>=0.1.0
+langchain-huggingface>=0.0.1
+chromadb>=0.4.0
+ollama>=0.1.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Sparse search (BM25)
+rank-bm25>=0.2.2
+
+# Web Framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# PDF Processing
+pypdf>=3.17.0
+markitdown[all]
+pytesseract
+pdf2image
+Pillow
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Development
+python-json-logger>=2.0.0
+
